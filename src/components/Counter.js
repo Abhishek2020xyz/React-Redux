@@ -10,7 +10,7 @@ const incrementHandler = () => {
   dispatch({type : 'increment'})
 }
 const increaseHandler = () =>{
-  dispatch({type: 'increase',amount:5})
+  dispatch({type: 'increase',amount: 5})
 }
 const decrementHandler = () => {
   dispatch({type : 'decrement'})
